@@ -1,1 +1,156 @@
 <h1>hlo people i am himal ...........</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Awesome Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #ff6ec4, #7873f5);
+            color: white;
+            text-align: center;
+        }
+
+        header {
+            padding: 20px;
+            background: rgba(0,0,0,0.2);
+            backdrop-filter: blur(10px);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            margin: 0 15px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        .hero {
+            padding: 80px 20px;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            background: white;
+            color: #7873f5;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: yellow;
+            color: black;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 40px 20px;
+            gap: 20px;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.15);
+            padding: 20px;
+            width: 250px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            background: rgba(255,255,255,0.25);
+        }
+
+        footer {
+            padding: 20px;
+            background: rgba(0,0,0,0.2);
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .cards {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>🌈 My Awesome Website</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Welcome to My Colorful World ✨</h2>
+        <p>This is a simple, modern, and responsive website made using only HTML & CSS.</p>
+        <a href="#" class="btn">Get Started</a>
+    </section>
+
+    <section class="cards">
+        <div class="card">
+            <h3>🚀 Fast</h3>
+            <p>Optimized and lightweight design for smooth performance.</p>
+        </div>
+        <div class="card">
+            <h3>🎨 Beautiful</h3>
+            <p>Modern colorful gradient with glassmorphism effect.</p>
+        </div>
+        <div class="card">
+            <h3>📱 Responsive</h3>
+            <p>Works perfectly on desktop, tablet, and mobile devices.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 My Awesome Website | Designed with ❤️</p>
+    </footer>
+
+</body>
+</html>
